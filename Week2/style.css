@@ -36,7 +36,25 @@ nav li a {
     text-decoration: none;
 }
 
+
+
+/* Changes made at 600px page break*/
 @media (min-width: 600px){
+    nav ul{
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    .no-bottom-border{
+        border-bottom: 1px solid black;
+    }
+    #link3{
+        order: 1;
+    }
+}
+
+/* Changes made at 900px page break */
+@media (min-width: 900px){
     nav ul{
         flex-direction: row;
         justify-content: space-around;
