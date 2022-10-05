@@ -1,0 +1,26 @@
+#rowOfImages {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0% 0% 0% 0%;
+    align-items: center;
+    justify-content: center;
+}
+
+.col {
+    width: 20%;
+    margin: 1em;
+    
+}
+  
+#largeImage {
+    position: relative;
+    display: block;
+    
+}
+
+
+main{
+    height: 100vh;
+}
+
+
