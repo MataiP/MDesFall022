@@ -17,9 +17,6 @@ function setup() {
 	platform = new Sprite(centerX, height - 50, 60, 5, 'kinematic');
 	platform.shapeColor = 'red';
 
-	//for(let i = 0; i < 20; i++){
-	//	Actors[i] = new Objectz()
-	//}
 
 
 }
